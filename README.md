@@ -10,7 +10,6 @@
 
 ```swift
 import UIKit
-import SROTPView
 
 class ViewController: UIViewController {
     @IBOutlet weak var otpView: RDOTPView!
