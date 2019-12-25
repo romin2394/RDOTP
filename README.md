@@ -13,13 +13,10 @@ import UIKit
 import SROTPView
 
 class ViewController: UIViewController {
-
-    
-     @IBOutlet weak var otpView: RDOTPView!
-    
+    @IBOutlet weak var otpView: RDOTPView!
+     
     override func viewDidLoad() {
-        super.viewDidLoad()
-        
+        super.viewDidLoad()   
         otpView.otpTextFieldsCount = 4
         otpView.otpTextFieldActiveBorderColor = UIColor.black
         otpView.otpTextFieldDefaultBorderColor = UIColor.black
@@ -30,16 +27,13 @@ class ViewController: UIViewController {
             print("Your pin is \(pin)")
         }
         otpView.initializeUI()
-        // Do any additional setup after loading the view.
     }
-
-
 }
 
 ```
 ## Contribute
 
-We would love you for the contribution to **RDOTP**, check the ``LICENSE`` file for more info.
+We would love you for the contribution to **RDOTP**.
 ## Author
 
 rdc2394@gmail.com
