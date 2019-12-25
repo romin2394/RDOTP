@@ -37,3 +37,9 @@ class ViewController: UIViewController {
 }
 
 ```
+## Contribute
+
+We would love you for the contribution to **RDOTP**, check the ``LICENSE`` file for more info.
+## Author
+
+rdc2394@gmail.com
